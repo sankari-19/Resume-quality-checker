@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Resume Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Resume Quality Checker</h1>
+
+        <input type="file" id="resumeFile">
+
+        <br><br>
+
+        <button onclick="analyzeResume()">
+            Analyze Resume
+        </button>
+
+        <div class="progress">
+
+            <div class="progress-bar" id="progressBar">
+                0%
+            </div>
+
+        </div>
+
+        <h3>Detected Skills</h3>
+
+        <ul id="skills"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
